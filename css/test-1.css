@@ -1,0 +1,320 @@
+:root {
+    font-size: 16px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.round-button {
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.navbar {
+    border-bottom: 5px solid rgb(236, 233, 233);
+}
+
+.banner {
+    box-sizing: border-box;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.paragraph {
+    background-color: rgb(190, 186, 186);
+    padding: 2rem 0;
+}
+
+.paragraph h1 {
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-left: 10%;
+    padding-right: 20%;
+    color: white;
+}
+
+.paragraph h2 {
+    font-size: 2rem;
+    padding-left: 10%;
+    padding-right: 20%;
+    color: white;
+}
+
+.paragraph p {
+    font: 1.5rem;
+    padding-left: 10%;
+    padding-right: 20%;
+    color: white;
+    margin-top: 2rem;
+}
+
+.paragraph1 ul {
+    justify-content: space-between;
+}
+
+.paragraph-1,
+.categories,
+.partner {
+    background-color: rgb(238, 234, 234);
+}
+
+.paragraph1,
+.categories1,
+.benefits1,
+partner1,
+.footer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph1 ul li {
+    padding: 3rem 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.center-word {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+
+.center-word h1 {
+    font-weight: 1000;
+    font-size: 2.2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-weight: 550;
+    color: rgb(190, 186, 186);
+}
+
+.product h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    font-weight: 550;
+}
+
+.card {
+    border: 3px solid rgb(230, 205, 43);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    height: 20rem;
+
+}
+
+.col>a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+.product-card .col {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 80%;
+}
+
+.card:hover {
+    background-color: rgb(230, 205, 43);
+}
+
+.exhibitors-card {
+    justify-content: space-between;
+}
+
+.exhibitors1 {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.exhibitors1 img {
+    padding: 3rem
+}
+
+.card1 {
+    border: 3px solid rgb(230, 205, 43);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 15rem;
+    height: 15rem;
+}
+
+.benefits-paragraph p {
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.benefits-element-content {
+    width: 50%;
+    display: flex;
+}
+
+.benefits-element-content img {
+    height: 6.4rem;
+    width: 6.4rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+.benefit-card {
+    text-align: center;
+}
+
+.benefit-card h2 {
+    color: brown;
+    margin-top: 0.8rem;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.benefits-element-video {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+footer h2 {
+    margin: 2rem 0;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #a8a8a8;
+    color: white;
+}
+
+footer h4 {
+    margin: 1.5rem 0;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem 0;
+    color: white !important;
+}
+
+.footer>ul {
+    display: flex;
+}
+
+.email>input {
+    height: 2.5rem;
+}
+
+.description-input>textarea {
+    height: 2.5rem;
+    resize: vertical;
+    margin: 1rem 0;
+}
+
+footer h4>i,footer a>i {
+    color: rgb(230, 205, 43) !important;
+}
+.footer-left-logo i{
+    margin: 0 10px;
+}
+
+.submit {
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.lower-footer {
+    border-top: 1px solid black;
+    margin: 2rem;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.godaddy>img {
+    width: 6rem;
+}
+
+.whatsapp>img {
+    width: 3rem;
+}
+
+.copyright>h2,
+.copyright>p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.carousel-item {
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 4%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.slider-button {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% !important;
+    background-color: rgb(227, 101, 18) !important;
+}
+
+.cust-btn {
+    text-align: center;
+}
+.rounded-pill{
+    background-color: rgb(30, 30, 112);
+    color: white;
+}
+.cust-btn>a>button {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    :root {
+        font-size: 8px;
+    }
+}
